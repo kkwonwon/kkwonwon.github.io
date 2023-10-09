@@ -1,1 +1,1 @@
-# web_quiz
+# webQuiz
