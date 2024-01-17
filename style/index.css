@@ -38,11 +38,7 @@ nav li {
 }
 
 main {
-    position: fixed;
-    top: 6em;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: static;
     background-color: rgb(255, 247, 230);
     z-index: 1;
     height: auto;
@@ -50,12 +46,18 @@ main {
 }
 
 footer {
+    position: static;
+    z-index: 2;
+    text-align: center;
+}
+
+.scroller {
     position: fixed;
+    overflow-y: scroll;
+    top: 6em;
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 2;
-    text-align: center;
 }
 
 body {
