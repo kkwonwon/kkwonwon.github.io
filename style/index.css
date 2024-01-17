@@ -37,6 +37,14 @@ nav li {
     margin-right: 1em;
 }
 
+.text {
+    cursor: pointer;
+}
+
+.text:hover {
+    text-decoration: underline;
+}
+
 main {
     position: static;
     background-color: rgb(255, 247, 230);
