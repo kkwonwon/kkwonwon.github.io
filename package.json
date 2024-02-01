@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "@types/node": "^20.11.15"
+  },
+  "dependencies": {
+    "exif-js": "^2.3.0"
   }
 }
