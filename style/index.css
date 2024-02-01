@@ -56,7 +56,8 @@ main {
 footer {
     position: static;
     z-index: 2;
-    text-align: center;
+    margin-left: 10em;
+    /* text-align: center; */
 }
 
 .scroller {
