@@ -1,4 +1,11 @@
-let main = document.getElementsByTagName("main")
-let footer = document.getElementsByTagName("footer")
+import photos = require("./file");
 
-// footer[0].style.left = "0em"
+class MainPage extends HTMLElement {
+    connectedCallback() {
+        let h1tag = document.createElement("h1");
+        h1tag.innerHTML = "mainpage";
+        this.appendChild(h1tag);
+    }
+}
+
+customElements.define("main-page", MainPage);

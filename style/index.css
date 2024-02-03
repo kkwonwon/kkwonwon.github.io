@@ -50,7 +50,7 @@ main {
     background-color: rgb(255, 247, 230);
     z-index: 1;
     height: auto;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 footer {
